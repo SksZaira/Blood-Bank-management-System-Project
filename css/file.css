@@ -1,0 +1,194 @@
+body{
+background-image:url(../image/Tue2014_BackgroundBokeh_3.jpg);
+}
+#wrapper2{
+height:auto;
+width:1200px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:50px;
+margin-right:40px;
+border:solid 1px;
+background-color:#E0E0E0;
+}
+
+#wrapper{
+height:950px;
+width:1200px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:50px;
+margin-right:40px;
+border:solid 1px;
+background-color:#E0E0E0}
+
+#header{
+height:170px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+
+}
+#menu ul li{
+border:1px solid black;
+}
+#ha{
+margin-top:5px;
+margin-bottom:5px;
+margin-left:350px;
+}
+
+#hb{
+color:#D20000;
+font-size:50px;
+
+font-family:Algerian;}
+
+/*menu bar*/
+ul li{
+list-style-type:none;
+float:left;
+background-color:#620000;
+color:#FFD5D5;
+border-radius:300px;
+width:150px;
+margin-top:0px;
+font-size:17px;
+text-align:center;
+height:30px;
+
+}
+
+#menu ul ul{
+display:none;
+margin-top:10px;
+padding:0px;
+}
+#menu ul li:hover > ul{
+display:block;
+
+}
+
+#menu{
+float:left;
+
+}
+
+
+
+#left{
+margin-left:25px;
+margin-top:70px;
+
+}
+
+
+#mia{
+font:Georgia;
+color:#FF0000;
+font-size:18px;
+margin-left:60px;}
+
+#mib{
+margin-left:60px;}
+
+#footer{
+height:100px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+margin-top:250px;
+}
+#footer1{
+height:100px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+margin-top:120px;
+}
+
+#ra{
+color:#FFFFFF;
+}
+
+
+#loga{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+margin:2px;
+color:#FF0000;
+}
+
+#logb{
+font-size:24px;
+font-family:Georgia;}
+
+/*reg page*/
+#rr{
+font-family:"Lucida Handwriting", italic;
+font-size:12px;}
+
+
+/*Blood bank list*/
+#bank_name{
+font:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#000000;
+text-align:center;}
+
+#bank_n{
+font-family:Georgia;
+font-size:14px;
+color:#FF0000;}
+
+
+
+
+#footera{
+height:100px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+float:right;
+margin-top:50px;}
+
+#select{
+text-transform:capitalize;}
+
+
+#bd_list{
+overflow:scroll;
+height:500px;
+
+margin-left:40px;
+margin-top:50px;
+margin-right:40px;}
+
+#srcha{
+margin-top:50px;}
+
+#srch_donr{
+margin-left:70px;
+margin-top:50px;}
+
+#page_donor{
+display:inline-table}
+
+#blood_bank{
+overflow:scroll;
+height:500px;
+width:900px;}
+
+#scrol{
+overflow:scroll;
+height:50px;
+}
+
+/*Donor tips*/
+#donor_tips{
+list-style-type:none;
+outline:hidden;}
+
+@charset "utf-8";
+/* CSS Document */
+

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtable td{ 
+		padding:7px; 
+	}
+	
+	.TFtable tr{
+		background:#FF0000;
+	}
+	
+	.TFtable tr:nth-child(odd){ 
+		background:#FFE9D2;
+	}
+	.TFtable tr:nth-child(even){
+		background:#99FF99;
+	}

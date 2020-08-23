@@ -1,0 +1,145 @@
+.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtable td{ 
+		padding:4px; 
+	}
+	
+	.TFtable tr{
+		background:#FF0000;
+	}
+	
+	.TFtable tr:nth-child(odd){ 
+		background:#CC9966;
+	}
+	.TFtable tr:nth-child(even){
+		background:#FFFF99;
+	}
+
+body{
+background-image:url(../image/Tue2014_BackgroundBokeh_3.jpg);}
+
+#wrapper{
+height:800px;
+width:1200px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:50px;
+margin-right:40px;
+border:solid 1px;
+background-color:#E0E0E0;}
+
+#header{
+height:170px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+;
+}
+
+#ha{
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#hb{
+color:#D20000;
+font-size:50px;
+font-style:italic;}
+
+/*menu bar*/
+#menu ul li{
+list-style-type:none;
+float:left;
+background-color:#620000;
+color:#FFD5D5;
+border-radius:9px;
+width:150px;
+margin-top:0px;
+font-size:17px;
+text-align:center;
+height:30px;
+
+}
+
+#menu ul ul{
+display:none;
+}
+#menu ul li:hover > ul{
+display:block;
+}
+
+#menu{
+position:absolute;
+
+float:left;
+}
+
+#footer{
+height:100px;
+width:1200px;
+border:solid 1px;
+background-color:#000000;
+float:left;
+margin-top:195px;
+}
+#ra{
+color:#FFFFFF;
+}
+
+/*user_home page*/
+
+#user_menu{
+float:left;
+margin-top:50px;
+margin-left:70px;
+}
+
+#user_menu_bar{
+color:#FFFFFF;
+background-color:#000000;
+
+}
+#user_page{
+margin-top:120px;
+margin-left:220px;}
+
+#user_detail{
+float:right;
+margin-top:50px;
+margin-right:300px;
+}
+
+#back{
+border:solid 6px;}
+
+
+/*Admin page design*/
+#admin_part ul li{
+list-style-type:none;
+display:block;
+
+background-color:#000000;
+color:#FFFFFF;
+border-radius:3px;
+width:150px;
+font-size:12px;
+text-align:center;
+height:50px;
+}
+
+#view_detail
+{float:right;
+margin-right:500px;}
+
+
+
+
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
